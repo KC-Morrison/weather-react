@@ -56,11 +56,18 @@ function App() {
 										</span>{" "}
 										<span class="degrees">
 											{" "}
-											<a href="#" id="celsius-link" class="active">
+											<a
+												href="https://en.wikipedia.org/wiki/Celsius"
+												id="celsius-link"
+												class="active"
+											>
 												°C
 											</a>{" "}
 											|{" "}
-											<a href="#" id="fahrenheit-link">
+											<a
+												href="https://en.wikipedia.org/wiki/Fahrenheit"
+												id="fahrenheit-link"
+											>
 												°F
 											</a>{" "}
 										</span>
@@ -85,6 +92,7 @@ function App() {
 								<img
 									class="load-image"
 									src="https://cdn-icons-png.flaticon.com/512/7746/7746162.png"
+									alt="a person holding an umbrella"
 								/>
 								<div class="weather-forecast-tmperatures">
 									<span class="weather-forecast-temperature-min"></span>
@@ -96,8 +104,9 @@ function App() {
 
 					<small class="credits">
 						<a
-							href="https://github.com/KC-Morrison/vanilla-weather-app"
+							href="https://github.com/KC-Morrison/weather-react"
 							target="_blank"
+							rel="noreferrer"
 						>
 							Open-source code
 						</a>{" "}
